@@ -3,9 +3,9 @@
 Di bawah ini akan disajikan langkah-langkah yang perlu dilakukan untuk setup development environment program Mindstorm EV3 berbasis leJOS.
 > Setiap step yang ditunjukkan di bawah ini, diterapkan pada sistem operasi `Windows 11`.
 
-## Setup leJOS ([link referensi](https://sourceforge.net/p/lejos/wiki/Windows%20Installation/))
+## Setup leJOS ([referensi](https://sourceforge.net/p/lejos/wiki/Windows%20Installation/))
 
-1. Unduh dan Pasang [JDK 7](https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html)  
+1. Unduh dan Pasang [JDK 7](https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html)
 
     Silakan klik link di atas untuk melakukan pengunduhan JDK 7 kemudian lakukan pemasangan pada device Anda.
     > Pada kasus saya menggunakan `Java SE Development Kit 7u80` yang `windows x64`.
@@ -53,16 +53,59 @@ Di bawah ini akan disajikan langkah-langkah yang perlu dilakukan untuk setup dev
 
 8. Boot ke SD Card
 
-    Lakukan booting ke SD Card pada EV3 Brick dengan menekan tombol tengah dan menahannya hingga muncul tulisan `Mindstorm starting ...`. Kemudian biarkan EV3 Brick menyelesaikan proses pembacaan image yang ada di SD Card. Biasanya proses berjalan selama 8 menit untuk pertama kali booting. 
+    Lakukan booting ke SD Card pada EV3 Brick dengan menekan tombol tengah dan menahannya hingga muncul tulisan `Mindstorm starting...`. Kemudian biarkan EV3 Brick menyelesaikan proses pembacaan image (dimulai dengan munculnya logo `leJOS`) yang ada di SD Card. Biasanya proses berjalan selama 8 menit untuk pertama kali booting. 
 
 
-## Setup IDE ([link referensi](https://sourceforge.net/p/lejos/wiki/Installing%20the%20Eclipse%20plugin/))
-1. Pasang JDK 19 (terbaru)
+## Setup IDE ([referensi](https://sourceforge.net/p/lejos/wiki/Installing%20the%20Eclipse%20plugin/))
+
+Pada step kali ini IDE yang akan digunakan adalah sesuai saran dari pengembang leJOS sendiri, yaitu Eclipse IDE. Dimana di dalamnya sudah disediakan plugin untuk mempermudah proses development menggunakan leJOS pada EV3 Brick.
+
+1. Pasang [JDK 19/JDK terbaru](https://www.oracle.com/java/technologies/downloads/#java19)
+
+    Silakan klik link di atas untuk melakukan pengunduhan JDK terbaru kemudian lakukan pemasangan pada device Anda.
+    > Pada kasus saya menggunakan `Java SE Development Kit 19` yang `windows x64 installer`.
+    
+    Jika sudah diunduh silahkan lakukan step pemasanagn secara normal (next-next saja). Jika sudah berhasil maka akan muncul folder seperti di bawah ini:
+
+    <img src="./assets/jdk7-hasil.png" alt="Hasil JDK" width="640"/>
+
+    > Muncul folder jdk 19
+
 2. Unduh [Eclipse Installer](https://www.eclipse.org/downloads/packages/installer)
+
+    Pada tahap ini sebenarnya merupakan preferensi saja, Anda bisa langsung mengunduh IDE yang akan digunakan, yaitu Eclipse IDE for Java Developer. Namun agar lebih mudah, disini kita akan menggunakan Eclipse Installer dan melanjutkan pengunduhan serta pemasangan IDE terkait. 
+
 3. Pasang Eclipse IDE for Java Developer
+
+    Jika installer sudah diunduh, silakan dibuka maka akan muncul window berikut:
+
+    <img src="./assets/e-installer.png" alt="Eclipse Installer" width="640"/>
+
+    Silakan pilih Eclipse IDE for Java Developer
+
+    <img src="./assets/ide-for-java.png" alt="IDE for Java Dev" width="640"/>
+
+    Kemudian pastikan versi JDK yang dipilih adalah sesuai dengan versi yang telah dipasang pada step sebelumnya. Pemilihan ini berdasarkan folder JDK yang terdapat pada Program Files di device Anda. Jika sudah silakan klik `Install` dan tunggu hingga proses pengunduhan dan pemasangan selesai. Kemudian buka Eclipse IDE.
+
 4. Pasang plugin Eclipse leJOS EV3 (melalui repository dengan link http://lejos.sourceforge.net/tools/eclipse/plugin/ev3)
 
-## Koneksi ke EV3 Brick via USB ([link referensi](http://www.java-online.ch/lego/index.php?inhalt_links=home/nav_home.inc.php&inhalt_mitte=ev3install/usb_windows.inc.php&navUSB=ev3install/usb_windows.inc.php))
+    Ketika Eclipse IDE sudah terbuka, silakan buka menu `Help` dan pilih `Install New Software..`
+
+    <img src="./assets/help.png" alt="Eclipse IDE Help" width="320"/>
+
+    Akan muncul dialog baru untuk install plugin pada IDE, silakan klik tombol Add yang ada pada bagian `Work with:`
+
+    <img src="./assets/help-dialog.png" alt="Eclipse IDE Help Dialog" width="640"/>
+
+    Selanjutnya isikan input Name dengan `leJOS EV3` dan input Location dengan link repository di atas. Jika sudah klik tombol Add.
+
+    <img src="./assets/add-repo.png" alt="Add Repository" width="480"/>
+
+    Ketika telah ditambahkan maka akan muncul daftar Software yang tersedia pada dialog utama tadi. Selanjutnya silakan klik Next dan Finish untuk menyelesaikan penambahan plugin leJOS EV3 pada Eclipse IDE.
+
+    <img src="./assets/list-repo.png" alt="Daftar Repository" width="640"/>
+
+## Koneksi ke EV3 Brick via USB ([referensi](http://www.java-online.ch/lego/index.php?inhalt_links=home/nav_home.inc.php&inhalt_mitte=ev3install/usb_windows.inc.php&navUSB=ev3install/usb_windows.inc.php))
 1. Sambungkan EV3 Brick dengan PC/Laptop melalui USB
 2. Pasang [RNDIS Driver](http://www.java-online.ch/lego/ev3install/download/rndis.zip) di PC (jika belum terpasang)
 3. Atur Alamat IP koneksi (default `10.0.1.1`) untuk RNDIS melalui Device Manager
