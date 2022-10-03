@@ -97,7 +97,7 @@ Pada step kali ini IDE yang akan digunakan adalah sesuai saran dari pengembang l
 
     <img src="./assets/help-dialog.png" alt="Eclipse IDE Help Dialog" width="640"/>
 
-    Selanjutnya isikan input Name dengan `leJOS EV3` dan input Location dengan link repository di atas. Jika sudah klik tombol Add.
+    Selanjutnya isikan input Name dengan `leJOS EV3` dan input Location dengan link repository di atas (http://lejos.sourceforge.net/tools/eclipse/plugin/ev3). Jika sudah klik tombol Add.
 
     <img src="./assets/add-repo.png" alt="Add Repository" width="480"/>
 
@@ -107,9 +107,37 @@ Pada step kali ini IDE yang akan digunakan adalah sesuai saran dari pengembang l
 
 ## Koneksi ke EV3 Brick via USB ([referensi](http://www.java-online.ch/lego/index.php?inhalt_links=home/nav_home.inc.php&inhalt_mitte=ev3install/usb_windows.inc.php&navUSB=ev3install/usb_windows.inc.php))
 1. Sambungkan EV3 Brick dengan PC/Laptop melalui USB
+
+    Silakan sambungkan PC Anda dengan EV3 Brick (Micro USB) menggunakan kabel USB to Micro USB.
+
 2. Pasang [RNDIS Driver](http://www.java-online.ch/lego/ev3install/download/rndis.zip) di PC (jika belum terpasang)
+
+    Untuk langkah ini hanya untuk memastikan bahwa RNDIS Driver Anda sudah terinstall atau belum. Anda bisa mengecek terlebih dahulu atau langsung memasang Driver ini (silakan langsung ikuti langkah dibawah gambar berikut ini). Anda bisa mengecek ketersediaan Driver melalui `Device Manager` pada section `Network Adapters` ketika perangkat EV3 Brick sudah terhubung ke PC melalui kabel.
+    
+    <img src="./assets/device-manager.png" alt="Device Manager" width="640"/>
+
+    Jika driver terkait belum tersedia, silakan unduh RNDIS Driver terlebih dahulu melalui [link ini](http://www.java-online.ch/lego/ev3install/download/rndis.zip) (Windows 10/11) atau [link ini](Windows 8 ke bawah).
+    Jika sudah berhasil silakan diekstrak dan cari file `rndis.inf`, lalu klik kanan pada file tersebut dan pilih Install.
+
 3. Atur Alamat IP koneksi (default `10.0.1.1`) untuk RNDIS melalui Device Manager
+
+    Selanjutnya jika Driver sudah terpasang, silakan setup koneksi dengan mengatur IP Address dari EV3 Brick di pengaturan koneksi Driver nya melalui Device Manager.
+
 4. Atur Alamat IP koneksi (default `10.0.1.1`) di plugin Eclipse leJOS EV3 melalui menu Preferences
+
+    Selain pengaturan IP Address di Driver, Anda juga perlu mengatur IP Address koneksi pada Plugin leJOS EV3 yang ada di Eclipse IDE. Silakan buka Eclipse IDE-nya, kemudian buka menu Windows dan pilih `Preferences`
+    
+    <img src="./assets/windows-menu.png" alt="Windows Menu" width="320"/>
+
+    Akan muncul dialog Preferences, silakan pilh `leJOS EV3` (nama plugin yang telah kita pasang).
+    
+    <img src="./assets/preferences.png" alt="Preferences Menu" width="480"/>
+
+    Silakan ceklis pada bagian `Connect to named brick` dan isi input-nya dengan IP Address EV3 Brick (default `10.0.1.1`).
+    
+    <img src="./assets/setting-ip-plugin.png" alt="Setting IP Plugin" width="480"/>
+
+    Terakhir, silakan tekan `Apply and Close` untuk menerapkan konfigurasi IP Address leJOS EV3.
 
 # Referensi
 - https://lejos.sourceforge.io/
