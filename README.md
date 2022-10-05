@@ -1,3 +1,25 @@
+# Introduction
+
+## Sejarah
+Sebelum diperkenalkan secara resmi pada tahun 1998, inspirasi dan asal usul Lego Mindstorms terjadi beberapa tahun yang lalu saat Kjeld Kirk Kristiansen, CEO dari Lego setelah kebetulan menonton wawancara televisi yang menampilkan profesor MIT Seymour Papert. Saat itu, Papert mendemonstrasikan bagaimana anak-anak dapat menggunakan bahasa pemrograman yang dikembangkannya, LOGO, untuk mengendalikan robot _“turtles”_. 
+
+Setelah kejadian itu, Kristiansen tertarik dengan kemungkinan memperluas kemampuan Lego untuk belajar dan bermain: anak-anak harus dapat membangun dan mengontrol – memprogram – kreasi mereka. Akhirnya, pada 1980-an, Lego memulai kemitraan dengan MIT Media Lab, yang legonya diprogram oleh bahasa pemrograman Logo. Bersama-sama, mereka mulai mengerjakan _"intelligent brick"_ yang akan menghidupkan kreasi Lego.
+
+
+## Mindstorms: Generasi dan Spesifikasi
+Ada tiga generasi Lego Mindstorms: Robotics Invention System (diluncurkan pada tahun 1998), Mindstorms NXT (diluncurkan pada tahun 2006), dan Mindstorms EV3 (diluncurkan pada tahun 2013). Perlu dicatat bahwa, di sepanjang jalan, rilis ini telah menyertakan kit terpisah (dan terkadang sangat berbeda) untuk _retail_ dan untuk sekolah.
+
+### 1. **RCX**
+_The programmable brick_ dalam _Robotics Invention System_ pertama disebut RCX (Robotic Command eXplorers). Itu bisa diprogram menggunakan kode RCX atau ROBOLAB, yang didasarkan pada LabVIEW. (Perangkat lunak ini dikembangkan oleh Chris Rogers dari Tufts University dan dikomersialkan oleh National Instruments.) RCX memiliki prosesor 16 MHz dengan RAM 32K. Selain _brick_, kit ini juga menyertakan dua motor, dua sensor sentuh, dan satu sensor cahaya.
+
+### 2. **NXT**
+Kit NXT berisi tiga motor servo, satu sensor cahaya, suara, dan jarak, dan satu sensor sentuh. NXT 2.0 menambahkan sensor sentuh lainnya. _Brick_ memiliki prosesor 48 MHz dengan 64 KB RAM. Perangkat lunak NXT dalam set ritel adalah NXT-G; kit pendidikan dilengkapi dengan ROBOLAB.
+
+
+### 3. **EV3**
+_Brick_ dengan model terbaru, EV3, berjalan dengan Linux. Yang membanggakan dari EV3 adalah dengan memiliki prosesor 300 MHz dan 64 MB RAM ditambah 16 MB memori Flash. EV3 juga dilengkapi konektor USB dan slot Micro SD dan mendukung koneksi WiFi dan Bluetooth. Perangkat edukasi menjalankan versi LabView dan berisi dua motor besar, satu motor sedang, dua sensor sentuh, satu sensor warna, satu sensor _gyroscopic_, dan satu sensor ultrasonik. 
+
+
 # Setup
 
 Di bawah ini akan disajikan langkah-langkah yang perlu dilakukan untuk setup development environment program Mindstorm EV3 berbasis leJOS.
@@ -122,14 +144,6 @@ Pada step kali ini IDE yang akan digunakan adalah sesuai saran dari pengembang l
 3. Atur Alamat IP koneksi (default `10.0.1.1`) untuk RNDIS melalui Device Manager
 
     Selanjutnya jika Driver sudah terpasang, silakan setup koneksi dengan mengatur IP Address dari EV3 Brick di pengaturan koneksi Driver nya melalui Device Manager.
-    
-    <img src="./assets/device-manager.png" alt="Device Manager" width="640"/>
-
-    Silakan klik 2 kali pada RNDIS Gadget atau klik kanan lalu pilih `Properties`. Akan muncul dialog Properties RNDIS Gadget, silakan pilih tab `Advanced`.
-    
-    <img src="./assets/setting-ip-driver.png" alt="Setting IP Driver" width="480"/>
-
-    Silakan atur input Value dengan Alamat IP koneksi (default `10.0.1.1`). Terakhir klik Ok.
 
 4. Atur Alamat IP koneksi (default `10.0.1.1`) di plugin Eclipse leJOS EV3 melalui menu Preferences
 
@@ -137,7 +151,7 @@ Pada step kali ini IDE yang akan digunakan adalah sesuai saran dari pengembang l
     
     <img src="./assets/windows-menu.png" alt="Windows Menu" width="320"/>
 
-    Akan muncul dialog Preferences, silakan pilih `leJOS EV3` (nama plugin yang telah kita pasang).
+    Akan muncul dialog Preferences, silakan pilh `leJOS EV3` (nama plugin yang telah kita pasang).
     
     <img src="./assets/preferences.png" alt="Preferences Menu" width="480"/>
 
