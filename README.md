@@ -3,8 +3,6 @@
 ## Lego Mindstorms: A History of Educational Robots
 Sebelum diperkenalkan secara resmi pada tahun 1998, inspirasi dan asal usul Lego Mindstorms terjadi beberapa tahun yang lalu saat Kjeld Kirk Kristiansen, CEO dari Lego setelah kebetulan menonton wawancara televisi yang menampilkan profesor MIT Seymour Papert. Saat itu, Papert mendemonstrasikan bagaimana anak-anak dapat menggunakan bahasa pemrograman yang dikembangkannya, LOGO, untuk mengendalikan robot _“turtles”_. 
 
-<img src="./assets/mindstorms_papert.jpg" alt="MIT Seymour Papert" width="320"/>
-
 Setelah kejadian itu, Kristiansen tertarik dengan kemungkinan memperluas kemampuan Lego untuk belajar dan bermain: anak-anak harus dapat membangun dan mengontrol – memprogram – kreasi mereka. Akhirnya, pada 1980-an, Lego memulai kemitraan dengan MIT Media Lab, yang legonya diprogram oleh bahasa pemrograman Logo. Bersama-sama, mereka mulai mengerjakan _"intelligent brick"_ yang akan menghidupkan kreasi Lego.
 
 
