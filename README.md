@@ -1,12 +1,22 @@
-# Introduction
+**DAFTAR ISI**
+- [Introduction](#introduction-mindstorms)
+    1. [Lego Mindstorms: A History of Educational Robots](##a-history-of-educational-robots)
+    2. [Generation and Spesification](##generation-and-spesification)
+- [Setup](#setup)
+    1. [Setup leJOS](##setup-lejos)
+    2. [Setup IDE](##setup-ide)
+    3. [Koneksi ke EV3 Brick via USB](##koneksi-ke-ev3-brick-via-usb)
+- [Referensi](#referensi)
 
-## Lego Mindstorms: A History of Educational Robots
+# Introduction Mindstorms
+
+## A History of Educational Robots
 Sebelum diperkenalkan secara resmi pada tahun 1998, inspirasi dan asal usul Lego Mindstorms terjadi beberapa tahun yang lalu saat Kjeld Kirk Kristiansen, CEO dari Lego setelah kebetulan menonton wawancara televisi yang menampilkan profesor MIT Seymour Papert. Saat itu, Papert mendemonstrasikan bagaimana anak-anak dapat menggunakan bahasa pemrograman yang dikembangkannya, LOGO, untuk mengendalikan robot _“turtles”_. 
 
 Setelah kejadian itu, Kristiansen tertarik dengan kemungkinan memperluas kemampuan Lego untuk belajar dan bermain: anak-anak harus dapat membangun dan mengontrol – memprogram – kreasi mereka. Akhirnya, pada 1980-an, Lego memulai kemitraan dengan MIT Media Lab, yang legonya diprogram oleh bahasa pemrograman Logo. Bersama-sama, mereka mulai mengerjakan _"intelligent brick"_ yang akan menghidupkan kreasi Lego.
 
 
-## Mindstorms: Generation and Spesification
+## Generation and Spesification
 Ada tiga generasi Lego Mindstorms: Robotics Invention System (diluncurkan pada tahun 1998), Mindstorms NXT (diluncurkan pada tahun 2006), dan Mindstorms EV3 (diluncurkan pada tahun 2013). Perlu dicatat bahwa, di sepanjang jalan, rilis ini telah menyertakan kit terpisah (dan terkadang sangat berbeda) untuk _retail_ dan untuk sekolah.
 
 ### 1. **RCX**
@@ -45,7 +55,8 @@ Selain dari kemudahan yang ditawarkan oleh Robot LEGO EV3 Mindstorm, perangkat r
 Di bawah ini akan disajikan langkah-langkah yang perlu dilakukan untuk setup development environment program Mindstorm EV3 berbasis leJOS.
 > Setiap step yang ditunjukkan di bawah ini, diterapkan pada sistem operasi `Windows 11`.
 
-## Setup leJOS ([referensi](https://sourceforge.net/p/lejos/wiki/Windows%20Installation/))
+## Setup leJOS 
+([referensi](https://sourceforge.net/p/lejos/wiki/Windows%20Installation/))
 
 1. Unduh dan Pasang [JDK 7](https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html)
 
@@ -98,7 +109,8 @@ Di bawah ini akan disajikan langkah-langkah yang perlu dilakukan untuk setup dev
     Lakukan booting ke SD Card pada EV3 Brick dengan menekan tombol tengah dan menahannya hingga muncul tulisan `Mindstorm starting...`. Kemudian biarkan EV3 Brick menyelesaikan proses pembacaan image (dimulai dengan munculnya logo `leJOS`) yang ada di SD Card. Biasanya proses berjalan selama 8 menit untuk pertama kali booting. 
 
 
-## Setup IDE ([referensi](https://sourceforge.net/p/lejos/wiki/Installing%20the%20Eclipse%20plugin/))
+## Setup IDE 
+([referensi](https://sourceforge.net/p/lejos/wiki/Installing%20the%20Eclipse%20plugin/))
 
 Pada step kali ini IDE yang akan digunakan adalah sesuai saran dari pengembang leJOS sendiri, yaitu Eclipse IDE. Dimana di dalamnya sudah disediakan plugin untuk mempermudah proses development menggunakan leJOS pada EV3 Brick.
 
@@ -147,7 +159,8 @@ Pada step kali ini IDE yang akan digunakan adalah sesuai saran dari pengembang l
 
     <img src="./assets/list-repo.png" alt="Daftar Repository" width="640"/>
 
-## Koneksi ke EV3 Brick via USB ([referensi](http://www.java-online.ch/lego/index.php?inhalt_links=home/nav_home.inc.php&inhalt_mitte=ev3install/usb_windows.inc.php&navUSB=ev3install/usb_windows.inc.php))
+## Koneksi ke EV3 Brick via USB 
+([referensi](http://www.java-online.ch/lego/index.php?inhalt_links=home/nav_home.inc.php&inhalt_mitte=ev3install/usb_windows.inc.php&navUSB=ev3install/usb_windows.inc.php))
 1. Sambungkan EV3 Brick dengan PC/Laptop melalui USB
 
     Silakan sambungkan PC Anda dengan EV3 Brick (Micro USB) menggunakan kabel USB to Micro USB.
