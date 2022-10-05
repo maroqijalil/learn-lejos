@@ -122,6 +122,14 @@ Pada step kali ini IDE yang akan digunakan adalah sesuai saran dari pengembang l
 3. Atur Alamat IP koneksi (default `10.0.1.1`) untuk RNDIS melalui Device Manager
 
     Selanjutnya jika Driver sudah terpasang, silakan setup koneksi dengan mengatur IP Address dari EV3 Brick di pengaturan koneksi Driver nya melalui Device Manager.
+    
+    <img src="./assets/device-manager.png" alt="Device Manager" width="640"/>
+
+    Silakan klik 2 kali pada RNDIS Gadget atau klik kanan lalu pilih `Properties`. Akan muncul dialog Properties RNDIS Gadget, silakan pilih tab `Advanced`.
+    
+    <img src="./assets/setting-ip-driver.png" alt="Setting IP Driver" width="480"/>
+
+    Silakan atur input Value dengan Alamat IP koneksi (default `10.0.1.1`). Terakhir klik Ok.
 
 4. Atur Alamat IP koneksi (default `10.0.1.1`) di plugin Eclipse leJOS EV3 melalui menu Preferences
 
@@ -129,7 +137,7 @@ Pada step kali ini IDE yang akan digunakan adalah sesuai saran dari pengembang l
     
     <img src="./assets/windows-menu.png" alt="Windows Menu" width="320"/>
 
-    Akan muncul dialog Preferences, silakan pilh `leJOS EV3` (nama plugin yang telah kita pasang).
+    Akan muncul dialog Preferences, silakan pilih `leJOS EV3` (nama plugin yang telah kita pasang).
     
     <img src="./assets/preferences.png" alt="Preferences Menu" width="480"/>
 
