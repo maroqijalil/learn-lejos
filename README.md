@@ -1,11 +1,11 @@
 **DAFTAR ISI**
 - [Introduction](#introduction-mindstorms)
-    1. [Lego Mindstorms: A History of Educational Robots](##a-history-of-educational-robots)
-    2. [Generation and Spesification](##generation-and-spesification)
+    1. [Lego Mindstorms: A History of Educational Robots](#a-history-of-educational-robots)
+    2. [Generation and Spesification](#generation-and-spesification)
 - [Setup](#setup)
-    1. [Setup leJOS](##setup-lejos)
-    2. [Setup IDE](##setup-ide)
-    3. [Koneksi ke EV3 Brick via USB](##koneksi-ke-ev3-brick-via-usb)
+    1. [Setup leJOS](#setup-lejos)
+    2. [Setup IDE](#setup-ide)
+    3. [Koneksi ke EV3 Brick via USB](#koneksi-ke-ev3-brick-via-usb)
 - [Referensi](#referensi)
 
 # Introduction Mindstorms
