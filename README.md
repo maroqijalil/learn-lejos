@@ -56,7 +56,7 @@ Di bawah ini akan disajikan langkah-langkah yang perlu dilakukan untuk setup dev
 > Setiap step yang ditunjukkan di bawah ini, diterapkan pada sistem operasi `Windows 11`.
 
 ## Setup leJOS 
-### 📄 [Referensi](https://sourceforge.net/p/lejos/wiki/Windows%20Installation/)
+#### 📄 [Referensi](https://sourceforge.net/p/lejos/wiki/Windows%20Installation/)
 
 1. Unduh dan Pasang [JDK 7](https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html)
 
@@ -110,7 +110,7 @@ Di bawah ini akan disajikan langkah-langkah yang perlu dilakukan untuk setup dev
 
 
 ## Setup IDE 
-### 📄 [Referensi](https://sourceforge.net/p/lejos/wiki/Installing%20the%20Eclipse%20plugin/)
+#### 📄 [Referensi](https://sourceforge.net/p/lejos/wiki/Installing%20the%20Eclipse%20plugin/)
 
 Pada step kali ini IDE yang akan digunakan adalah sesuai saran dari pengembang leJOS sendiri, yaitu Eclipse IDE. Dimana di dalamnya sudah disediakan plugin untuk mempermudah proses development menggunakan leJOS pada EV3 Brick.
 
@@ -160,7 +160,7 @@ Pada step kali ini IDE yang akan digunakan adalah sesuai saran dari pengembang l
     <img src="./assets/list-repo.png" alt="Daftar Repository" width="640"/>
 
 ## Koneksi ke EV3 Brick via USB 
-### 📄 [Referensi](http://www.java-online.ch/lego/index.php?inhalt_links=home/nav_home.inc.php&inhalt_mitte=ev3install/usb_windows.inc.php&navUSB=ev3install/usb_windows.inc.php)
+#### 📄 [Referensi](http://www.java-online.ch/lego/index.php?inhalt_links=home/nav_home.inc.php&inhalt_mitte=ev3install/usb_windows.inc.php&navUSB=ev3install/usb_windows.inc.php)
 1. Sambungkan EV3 Brick dengan PC/Laptop melalui USB
 
     Silakan sambungkan PC Anda dengan EV3 Brick (Micro USB) menggunakan kabel USB to Micro USB.
