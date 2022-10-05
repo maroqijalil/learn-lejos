@@ -1,4 +1,4 @@
-**DAFTAR ISI**
+**🤖 TABLE OF CONTENTS 🤖**
 - [Introduction](#introduction-mindstorms)
     1. [Lego Mindstorms: A History of Educational Robots](#a-history-of-educational-robots)
     2. [Generation and Spesification](#generation-and-spesification)
