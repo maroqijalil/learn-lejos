@@ -21,6 +21,7 @@ _The programmable brick_ dalam _Robotics Invention System_ pertama disebut RCX (
 
 Kit NXT berisi tiga motor servo, satu sensor cahaya, suara, dan jarak, dan satu sensor sentuh. NXT 2.0 menambahkan sensor sentuh lainnya. _Brick_ memiliki prosesor 48 MHz dengan 64 KB RAM. Perangkat lunak NXT dalam set ritel adalah NXT-G; kit pendidikan dilengkapi dengan ROBOLAB.
 
+> Peningkatan dari seri sebelumnya, penggunaan Mindstorms NXT membantu mempermudah pembuatan robot. Hal ini dikarenakan Mindstorms NXT menghilangkan kebutuhan untuk menyolder sirkuit dan menghilangkan kesulitan saat pemasangan motor.
 
 ### 3. **EV3**
 
@@ -28,6 +29,16 @@ Kit NXT berisi tiga motor servo, satu sensor cahaya, suara, dan jarak, dan satu 
 
 _Brick_ dengan model terbaru, EV3, berjalan dengan Linux. Yang membanggakan dari EV3 adalah dengan memiliki prosesor 300 MHz dan 64 MB RAM ditambah 16 MB memori Flash. EV3 juga dilengkapi konektor USB dan slot Micro SD dan mendukung koneksi WiFi dan Bluetooth. Perangkat edukasi menjalankan versi LabView dan berisi dua motor besar, satu motor sedang, dua sensor sentuh, satu sensor warna, satu sensor _gyroscopic_, dan satu sensor ultrasonik. 
 
+📌 Robot LEGO EV3 Mindstorm membuat pekerjaan yang berhubungan dengan elektronika, misalnya kebutuhan menyambungkan beberapa perangkat dengan solder, mengukur tegangan dari peralatan elektrik menjadi tidak ada. Pengguna dapat merkait Robot LEGO EV3 Mindstorm layaknya merakit mainan lego, dan melakukan programming dengan cara melakukan drag and drop diatas user interface Robot LEGO EV3 Mindstorm. 
+
+Selain dari kemudahan yang ditawarkan oleh Robot LEGO EV3 Mindstorm, perangkat robotika LEGO juga memiliki kelebihan antara lain :
+- Dapat dibentuk sesuai dengan imaginasi (mobil, helikopter, robot, mesin, dan lain-lain).
+- EV3 Mindstorms dioperasikan dengan program.
+- Program berbasis drag and drop (user friendly).
+
+💡Robot, kendaraan, dan mesin dapat dibentuk dari EV3 _Brick_. Terdapat satu processor ARM9 untuk menggerakkan motor, berdasarkan input dari sensor-sensor. Sensor-sensor yang dapat digunakan dalam perangkat LEGO Mindstorm adalah sensor: cahaya, suara, warna, tekanan, dan ultrasonik. 
+
+<img src="./assets/build_ev3.png" alt="Build EV3" width="640"/>
 
 # Setup
 
