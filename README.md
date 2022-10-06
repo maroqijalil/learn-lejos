@@ -12,7 +12,7 @@
       - [📄 Referensi](#-referensi-1)
   - [Koneksi ke EV3 Brick via USB](#koneksi-ke-ev3-brick-via-usb)
       - [📄 Referensi](#-referensi-2)
-- [Referensi](#referensi)
+- [References](#references)
 
 # Introduction Mindstorms
 
@@ -147,7 +147,7 @@ Pada step kali ini IDE yang akan digunakan adalah sesuai saran dari pengembang l
 
     Kemudian pastikan versi JDK yang dipilih adalah sesuai dengan versi yang telah dipasang pada step sebelumnya. Pemilihan ini berdasarkan folder JDK yang terdapat pada Program Files di device Anda. Jika sudah silakan klik `Install` dan tunggu hingga proses pengunduhan dan pemasangan selesai. Kemudian buka Eclipse IDE.
 
-4. Pasang plugin Eclipse leJOS EV3 (melalui repository dengan link http://lejos.sourceforge.net/tools/eclipse/plugin/ev3)
+4. Pasang plugin Eclipse leJOS EV3
 
     Ketika Eclipse IDE sudah terbuka, silakan buka menu `Help` dan pilih `Install New Software..`
 
@@ -157,7 +157,7 @@ Pada step kali ini IDE yang akan digunakan adalah sesuai saran dari pengembang l
 
     <img src="./assets/help-dialog.png" alt="Eclipse IDE Help Dialog" width="640"/>
 
-    Selanjutnya isikan input Name dengan `leJOS EV3` dan input Location dengan link repository di atas (http://lejos.sourceforge.net/tools/eclipse/plugin/ev3). Jika sudah klik tombol Add.
+    Selanjutnya isikan input `Name` dengan `leJOS EV3` dan input `Location` dengan link repository berikut: http://lejos.sourceforge.net/tools/eclipse/plugin/ev3 (copy-paste link tersebut ke input-nya, tidak perlu diklik link-nya). Jika sudah klik tombol Add.
 
     <img src="./assets/add-repo.png" alt="Add Repository" width="480"/>
 
@@ -210,7 +210,7 @@ Pada step kali ini IDE yang akan digunakan adalah sesuai saran dari pengembang l
 
 Mulai membuat program pertamamu! Jika butuh dokumentasi terkait Class yang akan digunakan [**cek disini**](https://lejos.sourceforge.io/ev3/docs/)
 
-# Referensi
+# References
 - https://lejos.sourceforge.io/
 - http://www.java-online.ch/lego/index.php?inhalt_links=home/nav_home.inc.php&inhalt_mitte=home/home.inc.php
 - https://www.youtube.com/playlist?list=PL3c9v1f7NWPPxYvbvedCeXzKvqBciiTFn
