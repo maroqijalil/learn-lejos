@@ -1,11 +1,17 @@
 **🤖 TABLE OF CONTENTS 🤖**
-- [Introduction](#introduction-mindstorms)
-    1. [Lego Mindstorms: A History of Educational Robots](#a-history-of-educational-robots)
-    2. [Generation and Spesification](#generation-and-spesification)
+- [Introduction Mindstorms](#introduction-mindstorms)
+  - [A History of Educational Robots](#a-history-of-educational-robots)
+  - [Generation and Spesification](#generation-and-spesification)
+    - [1. **RCX**](#1-rcx)
+    - [2. **NXT**](#2-nxt)
+    - [3. **EV3**](#3-ev3)
 - [Setup](#setup)
-    1. [Setup leJOS](#setup-lejos)
-    2. [Setup IDE](#setup-ide)
-    3. [Koneksi ke EV3 Brick via USB](#koneksi-ke-ev3-brick-via-usb)
+  - [Setup leJOS](#setup-lejos)
+      - [📄 Referensi](#-referensi)
+  - [Setup IDE](#setup-ide)
+      - [📄 Referensi](#-referensi-1)
+  - [Koneksi ke EV3 Brick via USB](#koneksi-ke-ev3-brick-via-usb)
+      - [📄 Referensi](#-referensi-2)
 - [Referensi](#referensi)
 
 # Introduction Mindstorms
@@ -205,3 +211,4 @@ Pada step kali ini IDE yang akan digunakan adalah sesuai saran dari pengembang l
 # Referensi
 - https://lejos.sourceforge.io/
 - http://www.java-online.ch/lego/index.php?inhalt_links=home/nav_home.inc.php&inhalt_mitte=home/home.inc.php
+- https://www.youtube.com/playlist?list=PL3c9v1f7NWPPxYvbvedCeXzKvqBciiTFn
