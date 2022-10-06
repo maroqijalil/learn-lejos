@@ -1,4 +1,4 @@
-**🤖 TABLE OF CONTENTS 🤖**
+**🤖 Table of Contents 🤖**
 - [Introduction Mindstorms](#introduction-mindstorms)
   - [A History of Educational Robots](#a-history-of-educational-robots)
   - [Generation and Spesification](#generation-and-spesification)
@@ -207,6 +207,8 @@ Pada step kali ini IDE yang akan digunakan adalah sesuai saran dari pengembang l
     <img src="./assets/setting-ip-plugin.png" alt="Setting IP Plugin" width="480"/>
 
     Terakhir, silakan tekan `Apply and Close` untuk menerapkan konfigurasi IP Address leJOS EV3.
+
+Mulai membuat program pertamamu! Jika butuh dokumentasi terkait Class yang akan digunakan [**cek disini**](https://lejos.sourceforge.io/ev3/docs/)
 
 # Referensi
 - https://lejos.sourceforge.io/
